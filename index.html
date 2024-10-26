@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-conteiner">
+
+        <div class="main">
+            <h2>Калькулятор стоимости курса</h2>
+    
+            <div >
+                <label oninput="course()">
+                    <span class="bold">Курс:</span> 
+                    <select class="style" id="select">
+                        <option value="bestPrice">Не выбран</option>
+                        <option value="Python">Python</option>
+                        <option value="Front">Frontend</option>
+                        <option value="Ux">Ux/Ix</option>
+                    </select>
+                </label>
+            </div>
+    
+            <div>
+                <label oninput="course()" >
+                    <span class="bold">Скидка:</span>
+                    <span><input class="style" id="step" type="range" min="0" max="50" step="5" value="0"  ></span>
+                    <span id="sale">0%</span>
+                </label>
+            </div>
+
+            <div>
+                <label class="bold2" for="" >
+                    Цена курса:
+                    <input class="maney" id="mainPrice" type="text" readonly>
+                </label>
+            </div>
+    
+            <div>
+                <label for="" >
+                    <span class="bold2" >Итоговая сумма:</span>
+                    <input class="maney" id="coursePrice" type="text" readonly >
+                    <br><span id="benifit-style">Выгода: <span id="benifit"></span></span>
+                </label>
+            </div>
+    
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

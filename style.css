@@ -1,0 +1,73 @@
+
+
+.main {
+    background-color: rgb(202, 225, 245);
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.main div {
+    display: block;
+    padding: 10px;
+    padding-bottom: 15px;
+
+    border-bottom: solid;
+    border-width: 0.5px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+.style {
+    cursor: pointer;
+}
+
+#select {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 237);
+    font-style: italic;
+    font-weight: 600;
+}
+
+#step {
+    height: 5px;
+}
+
+.bold {
+    font-weight:bold;
+    cursor: pointer;
+    color: grey;
+}
+
+.bold:hover {
+    color: black;
+    font-size: 17px;
+}
+
+.bold2 {
+    font-weight:bold;
+}
+
+#sale {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.maney {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: azure;
+    direction: rtl;
+    width: 150px;
+}
+
+#benifit-style {
+    font-size: 40px;
+
+}
